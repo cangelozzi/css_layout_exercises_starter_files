@@ -1,1 +1,69 @@
+nav {
+  padding-right: 60px;
+  padding-left: 60px;
+  border: 1px solid black;
+  background-color: grey;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+ }
 
+.links {
+  left: 150px;
+  position: absolute;
+  display: inline-block;
+  top: 20px;
+}
+
+nav a::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a {
+  color: blue;
+}
+
+nav .foto {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 50%
+  border: 1px solid black;
+  vertical-align: middle;
+}
+
+.border {
+  border: 10px green dotted;
+  width: 600px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
+  position: relative;
+  
+}
+
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.spacecat, .spacedog {
+    width: 200px;
+    position: absolute;
+}
+
+.spacedog {
+    bottom: -100px;
+    right: -100px;
+}
+
+.spacecat {
+    bottom: 160px;
+    left: -90px;
+}
