@@ -1,0 +1,42 @@
+.PRIMARY {
+  width: 800px;
+  height: 500px;
+  border: 1px black solid;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+  }
+
+.green {
+  background-color: green;
+  width: 50%;
+  height: 200px;
+  display: inline-block;
+}
+.blue {
+  background-color: blue;
+  width: 50%;
+  height: 200px;
+  display: inline-block;
+  }
+
+.grey {
+  background-color: grey;
+  width: 33.33%;
+  height: 300px; 
+  display: inline-block;
+}
+
+.black {
+  background-color: black;
+  width: 33.33%;
+  height: 300px;
+  display: inline-block;
+}
+
+.yellow {
+  background-color: gold;
+  width: 33.33%;
+  height: 300px;
+  display: inline-block;
+}
